@@ -13,11 +13,11 @@ body {
 }
 
 .topo-do-site {
-    max-width: 934px;
+    max-width: 935px;
     width: 100%;
     height: 54px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -56,4 +56,82 @@ input::placeholder {
 .logo-insta {
     width: 103px;
     height: 29px;
+}
+
+.caixa-de-stories {
+    display: flex;
+    max-width: 614px;
+    width: 100%;
+    height: 100px;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    flex-shrink: 0;
+    margin-bottom: 24px;
+    overflow: hidden;
+    position: relative;
+}
+
+.setinha {
+    position: absolute;
+    top: 39px;
+    right: 8px;
+    z-index: 2;
+}
+
+.seta {
+    color: #FFFFFF;
+    width: 25px;
+    height: 25px;
+}
+
+.stories {
+    width: 80px;
+    height: 110px;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1px;
+    padding-left: 1px;
+    flex-shrink: 0;
+}
+
+.imagens-dos-stories {
+    max-width: 56px;
+    width: 100%;
+    height: 56px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.borda {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+}
+
+.img-do-storie {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.nome-da-pag {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 6px;
+    color: #262626;
+    line-height: 14px;
+}
+
+.conteudo {
+    max-width: 935px;
+    margin: 0 auto;
+    margin-top: 21px;
 }
